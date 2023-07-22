@@ -7,7 +7,7 @@ body {
   border: 1px solid #044549c7;
   width: 200vh;
   height: 100%;
-  background-image: url("/brick texture.jpg");
+ background-image: url("/brick\ texture.jpg");
   background-size: 100%;
 }
 /* @media (max-width: 900px) {

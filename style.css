@@ -1,0 +1,131 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.main-container {
+  border: 1px solid #044549c7;
+  width: 200vh;
+  height: 100%;
+  background-image: url("/brick\ texture.jpg");
+  background-size: 100%;
+}
+/* @media (max-width: 900px) {
+  #container {
+    display: block;
+    /* background-image: url(/brick\ texture.jpg);
+    background-size: 100%; */
+/* }
+} */
+.heading {
+  text-align: center;
+  margin: 40px;
+  display: block;
+  margin-left: 402px;
+  margin-right: 331px;
+  padding: 3px;
+  border-radius: 32px;
+  color: #7d2212c7;
+  font-size: 43px;
+  margin-top: 74px;
+}
+.tepm-container {
+  /* border: 2px solid black; */
+  width: 1120px;
+  height: 460px;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+  top: 25px;
+}
+
+.celsius {
+  /* border: 2px solid red; */
+  margin: auto;
+  height: 415px;
+  width: 325px;
+  margin-top: 15px;
+  text-align: center;
+}
+.heading-temp {
+  margin-top: 2px;
+  font-family: "Caveat", cursive;
+  font-weight: bolder;
+  font-size: 47px;
+  color: #000000d4;
+}
+
+.temp-name {
+  /* border: 2px solid yellow; */
+  position: absolute;
+  margin: auto;
+  width: 323px;
+  height: 344px;
+  border-top-left-radius: 214px;
+  border-top-right-radius: 225px;
+  border-bottom-left-radius: 193px;
+  border-bottom-right-radius: 194px;
+}
+
+.input {
+  margin: 73px;
+  margin-top: 92px;
+  margin-left: 64px;
+  margin-bottom: 51px;
+}
+.temp {
+  height: 50px;
+  width: 184px;
+  text-align: left;
+  padding: 4px;
+  padding-bottom: 9px;
+  font-size: 19px;
+  font-weight: 500;
+  border-radius: 12px;
+  border: 0px;
+}
+.btnn {
+  width: 74px;
+  height: 28px;
+  padding: 0px;
+  padding-bottom: 23px;
+  margin: 4px;
+  margin-top: 1px;
+  border-radius: 12px;
+  border: 0px;
+  background-color: #fcfeffd1;
+  box-shadow: -2px -1px 20px 3px;
+  color: #191a1c;
+  font-weight: 600;
+  transition: all -1.5s ease-in-out;
+}
+.btnn:active {
+  transform: scale(0.96);
+}
+.temp-color {
+  background-color: #3097dfd9;
+  box-shadow: inset 2px 3px 20px 6px;
+}
+.kelvin-color {
+  background-color: burlywood;
+  box-shadow: inset 2px 3px 20px 6px;
+}
+.celsius-color {
+  background-color: #f12c51e3;
+  box-shadow: inset 2px 3px 20px 6px;
+}
+#convert1 {
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+#convert2 {
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+#convert3 {
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}

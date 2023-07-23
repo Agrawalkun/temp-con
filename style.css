@@ -92,7 +92,7 @@ body {
   padding: 0.4rem;
   padding-bottom: 0.9rem;
   font-size: 1.9rem;
-  font-weight: 500;
+  font-weight: bold;
   border-radius: 1.2rem;
   border: 0rem;
 }
@@ -108,8 +108,9 @@ body {
   background-color: #fcfeffd1;
   box-shadow: -0.2rem -0.1rem 2rem 0.3rem;
   color: #191a1c;
-  font-weight: 600;
+  font-weight: bold;
   transition: all -1.5s ease-in-out;
+  font-size: 1.7rem;
 }
 .btnn:active {
   transform: scale(0.96);
@@ -162,5 +163,3 @@ body {
     font-weight: bolder;
   }
 }
-
-
